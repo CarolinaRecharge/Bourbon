@@ -334,9 +334,9 @@ a:hover {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem; /* Adjust this to match your other emojis */
-    height: 1.5em;
-    width: 1.5em;
+    font-size: 2rem; /* Adjust this to match your other emojis */
+    height: 2em;
+    width: 2em;
     line-height: 1;
 }
 
@@ -544,3 +544,384 @@ footer {
         order: -1;
     }
 }
+
+/* === MEMBERSHIP PAGE STYLES === */
+
+.page-hero {
+    height: 50vh;
+    min-height: 400px;
+    background: linear-gradient(rgba(26, 20, 16, 0.8), rgba(26, 20, 16, 0.9)), 
+                url('https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=2000') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: 70px;
+}
+
+.membership-intro {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--secondary-dark);
+    text-align: center;
+}
+
+.intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Benefits Grid */
+.membership-benefits {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--primary-dark);
+}
+
+.membership-benefits h2 {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+.benefit-card {
+    background-color: var(--secondary-dark);
+    padding: var(--spacing-md);
+    border: 1px solid var(--border-subtle);
+    transition: var(--transition-smooth);
+    position: relative;
+}
+
+.benefit-card:hover {
+    border-color: var(--accent-gold);
+    transform: translateY(-5px);
+}
+
+.benefit-number {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    color: var(--accent-gold);
+    opacity: 0.2;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-weight: 700;
+}
+
+.benefit-card h3 {
+    margin-bottom: var(--spacing-sm);
+    color: var(--accent-gold);
+}
+
+.benefit-card p {
+    color: var(--text-muted);
+    margin-bottom: 0;
+}
+
+/* Membership Tiers */
+.membership-tiers {
+    padding: var(--spacing-xl) 0;
+    background: linear-gradient(135deg, var(--secondary-dark) 0%, var(--primary-dark) 100%);
+}
+
+.membership-tiers h2 {
+    text-align: center;
+    margin-bottom: var(--spacing-sm);
+}
+
+.section-intro {
+    text-align: center;
+    color: var(--text-muted);
+    max-width: 700px;
+    margin: 0 auto var(--spacing-lg);
+}
+
+.tiers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+.tier-card {
+    background-color: var(--primary-dark);
+    padding: var(--spacing-md);
+    border: 2px solid var(--border-subtle);
+    text-align: center;
+    transition: var(--transition-smooth);
+    position: relative;
+}
+
+.tier-card:hover {
+    border-color: var(--accent-gold);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px rgba(212, 175, 55, 0.2);
+}
+
+.tier-card.featured {
+    border-color: var(--accent-gold);
+    background: linear-gradient(135deg, var(--primary-dark), var(--secondary-dark));
+}
+
+.tier-ribbon {
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    background-color: var(--accent-copper);
+    color: var(--text-light);
+    padding: 0.25rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tier-badge {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--accent-gold);
+    color: var(--primary-dark);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.tier-price {
+    margin-bottom: var(--spacing-md);
+}
+
+.price-amount {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    color: var(--accent-gold);
+    font-weight: 700;
+}
+
+.price-period {
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+.tier-features {
+    list-style: none;
+    text-align: left;
+    margin: var(--spacing-md) 0;
+    padding: var(--spacing-md) 0;
+    border-top: 1px solid var(--border-subtle);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.tier-features li {
+    color: var(--text-muted);
+    margin-bottom: var(--spacing-sm);
+    padding-left: var(--spacing-sm);
+}
+
+.tier-card .btn-outline,
+.tier-card .btn-primary {
+    width: 100%;
+    margin-top: var(--spacing-sm);
+}
+
+.payment-note {
+    text-align: center;
+    margin-top: var(--spacing-lg);
+    padding: var(--spacing-md);
+    background-color: var(--secondary-dark);
+    border: 1px solid var(--border-subtle);
+}
+
+.payment-note p {
+    color: var(--text-muted);
+    margin-bottom: 0;
+}
+
+/* FAQs */
+.membership-faqs {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--primary-dark);
+}
+
+.membership-faqs h2 {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.faqs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.faq-item {
+    background-color: var(--secondary-dark);
+    padding: var(--spacing-md);
+    border-left: 3px solid var(--accent-gold);
+}
+
+.faq-item h3 {
+    font-size: 1.125rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--accent-gold);
+}
+
+.faq-item p {
+    color: var(--text-muted);
+    margin-bottom: 0;
+}
+
+/* Membership Form */
+.membership-application {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--secondary-dark);
+}
+
+.application-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto var(--spacing-lg);
+}
+
+.application-header p {
+    color: var(--text-muted);
+}
+
+.membership-form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--primary-dark);
+    padding: var(--spacing-lg);
+    border: 1px solid var(--border-subtle);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+}
+
+.form-group {
+    margin-bottom: var(--spacing-md);
+}
+
+.form-group label {
+    display: block;
+    color: var(--accent-gold);
+    margin-bottom: var(--spacing-xs);
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: var(--secondary-dark);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-light);
+    font-family: var(--font-body);
+    transition: var(--transition-smooth);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--accent-gold);
+}
+
+.checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: var(--spacing-sm);
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    color: var(--text-muted);
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+    cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-right: var(--spacing-xs);
+    width: auto;
+}
+
+.checkbox-single {
+    display: flex;
+    align-items: flex-start;
+}
+
+.checkbox-single .checkbox-label {
+    margin-bottom: 0;
+}
+
+.form-actions {
+    margin-top: var(--spacing-md);
+    text-align: center;
+}
+
+.form-note {
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin-top: var(--spacing-md);
+    margin-bottom: 0;
+}
+
+/* Membership CTA */
+.membership-cta {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--primary-dark);
+    text-align: center;
+    border-top: 1px solid var(--border-subtle);
+}
+
+.membership-cta h2 {
+    margin-bottom: var(--spacing-sm);
+}
+
+.membership-cta p {
+    color: var(--text-muted);
+    margin-bottom: var(--spacing-md);
+}
+
+/* Responsive - Membership */
+@media (max-width: 768px) {
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .tiers-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .faqs-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .price-amount {
+        font-size: 2.5rem;
+    }
+}
+
