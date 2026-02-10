@@ -330,7 +330,7 @@ a:hover {
     box-shadow: 0 10px 30px rgba(212, 175, 55, 0.1);
 }
 
-.offering-icon {
+.offering-icon img {
    /* This makes the height match the current line of text */
     height: 3rem; 
     width: auto;
