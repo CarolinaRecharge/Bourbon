@@ -1,0 +1,73 @@
+<svg width="300" height="120" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Art Deco Frame -->
+  <g id="frame">
+    <!-- Outer border -->
+    <rect x="5" y="5" width="290" height="110" fill="none" stroke="#d4af37" stroke-width="2"/>
+    <rect x="10" y="10" width="280" height="100" fill="none" stroke="#d4af37" stroke-width="1"/>
+    
+    <!-- Corner decorations -->
+    <line x1="5" y1="20" x2="15" y2="20" stroke="#d4af37" stroke-width="1"/>
+    <line x1="5" y1="30" x2="15" y2="30" stroke="#d4af37" stroke-width="1"/>
+    <line x1="285" y1="20" x2="295" y2="20" stroke="#d4af37" stroke-width="1"/>
+    <line x1="285" y1="30" x2="295" y2="30" stroke="#d4af37" stroke-width="1"/>
+    <line x1="5" y1="90" x2="15" y2="90" stroke="#d4af37" stroke-width="1"/>
+    <line x1="5" y1="100" x2="15" y2="100" stroke="#d4af37" stroke-width="1"/>
+    <line x1="285" y1="90" x2="295" y2="90" stroke="#d4af37" stroke-width="1"/>
+    <line x1="285" y1="100" x2="295" y2="100" stroke="#d4af37" stroke-width="1"/>
+  </g>
+  
+  <!-- Bourbon Glass Icon -->
+  <g id="glass">
+    <!-- Glass body -->
+    <path d="M 40 45 L 45 75 L 55 75 L 60 45 Z" fill="none" stroke="#d4af37" stroke-width="2"/>
+    <!-- Bourbon liquid -->
+    <path d="M 42 60 L 44 72 L 56 72 L 58 60 Z" fill="#b87333" opacity="0.6"/>
+    <!-- Ice cube -->
+    <rect x="47" y="55" width="6" height="6" fill="#f5f1e8" opacity="0.3"/>
+    <!-- Glass base -->
+    <ellipse cx="50" cy="75" rx="7" ry="2" fill="none" stroke="#d4af37" stroke-width="2"/>
+    <!-- Highlight -->
+    <line x1="42" y1="50" x2="43" y2="65" stroke="#f5f1e8" stroke-width="1" opacity="0.4"/>
+  </g>
+  
+  <!-- Main Text -->
+  <g id="text">
+    <!-- WSBL Monogram -->
+    <text x="85" y="50" font-family="'Playfair Display', serif" font-size="32" font-weight="700" fill="#d4af37" letter-spacing="3">
+      WSBL
+    </text>
+    
+    <!-- Separator line -->
+    <line x1="85" y1="55" x2="155" y2="55" stroke="#b87333" stroke-width="1"/>
+    
+    <!-- Winston-Salem -->
+    <text x="85" y="72" font-family="'Playfair Display', serif" font-size="14" font-weight="400" fill="#c4b5a0" letter-spacing="2">
+      WINSTON-SALEM
+    </text>
+    
+    <!-- Bourbon League -->
+    <text x="85" y="88" font-family="'Playfair Display', serif" font-size="11" font-weight="300" fill="#c4b5a0" letter-spacing="4">
+      BOURBON LEAGUE
+    </text>
+  </g>
+  
+  <!-- Right side decorative elements -->
+  <g id="decoration">
+    <!-- Barrel illustration -->
+    <g transform="translate(240, 50)">
+      <!-- Barrel body -->
+      <ellipse cx="15" cy="5" rx="12" ry="4" fill="none" stroke="#d4af37" stroke-width="1"/>
+      <line x1="3" y1="5" x2="5" y2="25" stroke="#d4af37" stroke-width="1"/>
+      <line x1="27" y1="5" x2="25" y2="25" stroke="#d4af37" stroke-width="1"/>
+      <ellipse cx="15" cy="25" rx="10" ry="3" fill="none" stroke="#d4af37" stroke-width="1"/>
+      <!-- Barrel bands -->
+      <ellipse cx="15" cy="12" rx="12" ry="4" fill="none" stroke="#b87333" stroke-width="1"/>
+      <ellipse cx="15" cy="18" rx="11" ry="3.5" fill="none" stroke="#b87333" stroke-width="1"/>
+    </g>
+    
+    <!-- Est. 2026 -->
+    <text x="225" y="95" font-family="'Montserrat', sans-serif" font-size="8" fill="#c4b5a0" letter-spacing="1">
+      EST. 2026
+    </text>
+  </g>
+</svg>
