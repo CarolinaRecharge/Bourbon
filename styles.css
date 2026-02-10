@@ -333,6 +333,11 @@ a:hover {
 .offering-icon {
     font-size: 3rem;
     margin-bottom: var(--spacing-sm);
+   /* This makes the height match the current line of text */
+    height: 1em; 
+    width: auto;
+    /* This ensures it sits on the same baseline as an emoji */
+    vertical-align: middle;
 }
 
 .offering-card h3 {
