@@ -1,5 +1,5 @@
 /* ===================================
-   WINSTON-SALEM BOURBON LEAGUE
+   WINSTON-SALEM BARREL LEAGUE
    Content Configuration
    
    Edit this file to update text, event details, and other content
@@ -8,14 +8,14 @@
 
 const siteContent = {
     // Site Metadata
-    siteName: "Winston-Salem Bourbon League",
+    siteName: "Winston-Salem Barrel League",
     tagline: "Where tradition meets community, one pour at a time",
     contactEmail: "info@wsblbourbonleague.com",
     establishedYear: "2026",
     
     // Hero Section
     hero: {
-        title: "Winston-Salem Bourbon League",
+        title: "Winston-Salem Barrel League",
         subtitle: "Where tradition meets community, one pour at a time",
         ctaText: "Become a Member"
     },
@@ -23,8 +23,8 @@ const siteContent = {
     // Welcome Section
     welcome: {
         heading: "Welcome to the League",
-        leadText: "The Winston-Salem Bourbon League is more than a club—it's a gathering place for those who appreciate the art, history, and craft of American whiskey. Whether you're taking your first sip or you've been collecting for years, you'll find your place among us.",
-        bodyText: "We meet monthly to share exceptional bourbon, forge lasting friendships, and explore the rich traditions of whiskey culture. From intimate tastings in Winston-Salem to unforgettable distillery excursions across Kentucky and beyond, every gathering is an opportunity to deepen your knowledge and expand your palate."
+        leadText: "The Winston-Salem Barrel League is more than a club—it's a gathering place for those who appreciate the art, history, and craft of exceptional spirits. Whether you're taking your first sip or you've been collecting for years, you'll find your place among us.",
+        bodyText: "We meet monthly to share exceptional bourbon, whiskey, and other fine spirits, forge lasting friendships, and explore the rich traditions of barrel-aged craft. From intimate tastings in Winston-Salem to unforgettable distillery excursions across Kentucky and beyond, every gathering is an opportunity to deepen your knowledge and expand your palate."
     },
     
     // Upcoming Event (Update this monthly)
@@ -42,7 +42,7 @@ const siteContent = {
         {
             icon: "🥃",
             title: "Monthly Tastings",
-            description: "Expertly curated tastings featuring both classic expressions and rare finds. Each event includes guided notes and thoughtful discussion."
+            description: "Expertly curated tastings featuring bourbon, whiskey, and other fine spirits—both classic expressions and rare finds. Each event includes guided notes and thoughtful discussion."
         },
         {
             icon: "🚌",
@@ -75,7 +75,7 @@ const siteContent = {
     // CTA Section
     finalCTA: {
         heading: "Ready to Join?",
-        text: "Become part of Winston-Salem's premier bourbon community. All experience levels welcome.",
+        text: "Become part of Winston-Salem's premier spirits community. All experience levels welcome.",
         buttonText: "Apply for Membership"
     },
     

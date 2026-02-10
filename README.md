@@ -1,6 +1,6 @@
-# Winston-Salem Bourbon League Website
+# Winston-Salem Barrel League Website
 
-A refined, speakeasy-inspired website for the Winston-Salem Bourbon League.
+A refined, speakeasy-inspired website for the Winston-Salem Barrel League.
 
 ## 📁 File Structure
 
@@ -127,4 +127,4 @@ For questions or issues, contact: info@wsblbourbonleague.com
 
 ---
 
-**Est. 2026** | Winston-Salem Bourbon League
+**Est. 2026** | Winston-Salem Barrel League
