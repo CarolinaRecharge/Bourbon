@@ -330,13 +330,21 @@ a:hover {
     box-shadow: 0 10px 30px rgba(212, 175, 55, 0.1);
 }
 
+.offering-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem; /* Adjust this to match your other emojis */
+    height: 1.5em;
+    width: 1.5em;
+    line-height: 1;
+}
+
+.offering-icon svg, 
 .offering-icon img {
-   /* This makes the height match the current line of text */
-    height: 3rem; 
+    height: 1em; /* Scales relative to the font-size above */
     width: auto;
-    /* This ensures it sits on the same baseline as an emoji */
-    vertical-align: middle;
-    margin-bottom: var(--spacing-sm);
+    display: block;
 }
 
 .offering-card h3 {
