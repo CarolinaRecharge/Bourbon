@@ -50,7 +50,7 @@ const siteContent = {
             description: "Experience bourbon at its source with organized trips to renowned distilleries throughout Kentucky and the Southeast."
         },
         {
-            icon: "⚱️",
+            icon: "assets/icons/barrel.png",
             title: "Barrel Picks",
             description: "Members gain exclusive access to our private barrel selections—unique bottlings you won't find anywhere else."
         },
