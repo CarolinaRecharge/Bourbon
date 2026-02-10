@@ -342,7 +342,7 @@ a:hover {
 
 .offering-icon svg, 
 .offering-icon img {
-    height: 1em; /* Scales relative to the font-size above */
+    height: 2em; /* Scales relative to the font-size above */
     width: auto;
     display: block;
 }
